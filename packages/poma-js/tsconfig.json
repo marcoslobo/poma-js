@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig-base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "lib"
+  },
+  "references": [
+    { "path": "../poma-core" },
+    { "path": "../poma-api" },
+    { "path": "../poma-nep5" }
+  ],
+  "include": ["src/**/*"]
+}
